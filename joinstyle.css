@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(join_images.jpg);
+    background-image: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #e9ececc5;
+    padding-top: 30px;    padding-bottom: 30px;    padding-left: 40px;    padding-right: 65px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #110202;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0313e8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #30b300;
+}
